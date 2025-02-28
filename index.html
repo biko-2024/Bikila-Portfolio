@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="image.png" alt="Profile Image">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Computer Science Student | Software Developer</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>Greetings! I'm Bikila Belay, a dedicated third-year Computer Science student at Jimma University, building a strong foundation in software development and problem-solving. My core strengths include proficiency in Python, Java, and C++, complemented by practical experience with web development frameworks like React and familiarity with database technologies like SQL. I thrive in collaborative environments, where I can contribute to innovative projects and effectively communicate complex technical concepts. I'm particularly interested in full-stack web development, data analysis. My goal is to leverage my skills to create software that makes a positive impact. I'm eager to learn and grow, and I'm actively exploring cloud computing and other emerging technologies. In my free time,I enjoy playing chess and participating in online coding challenges.. Please feel free to explore my portfolio and reach out!</p>
+            
+            <!-- Added Resume Download Button -->
+            <div class="resume-download">
+                <a href="resume.pdf" class="btn" download>
+                    <i class="fas fa-download"></i>
+                    Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <!-- Programming Languages -->
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Programming Languages</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-percent="85">
+                        <span>C++</span>
+                        <div class="percent-number">85%</div>
+                    </div>
+                    <div class="skill-item" data-percent="88">
+                        <span>Python</span>
+                        <div class="percent-number">88%</div>
+                    </div>
+                    <div class="skill-item" data-percent="80">
+                        <span>Java</span>
+                        <div class="percent-number">80%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Development -->
+            <div class="skill-card">
+                <i class="fas fa-globe"></i>
+                <h3>Web Development</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-percent="85">
+                        <span>HTML/CSS</span>
+                        <div class="percent-number">90%</div>
+                    </div>
+                    <div class="skill-item" data-percent="80">
+                        <span>JavaScript</span>
+                        <div class="percent-number">83%</div>
+                    </div>
+                    <div class="skill-item" data-percent="75">
+                        <span>PHP</span>
+                        <div class="percent-number">80%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Database Management -->
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>Database Management</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-percent="85">
+                        <span>MySQL</span>
+                        <div class="percent-number">85%</div>
+                    </div>
+                    <div class="skill-item" data-percent="75">
+                        <span>Firebase</span>
+                        <div class="percent-number">80%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Software Development -->
+            <div class="skill-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Software Development</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-percent="85">
+                        <span>OOP</span>
+                        <div class="percent-number">85%</div>
+                    </div>
+                    <div class="skill-item" data-percent="90">
+                        <span>Problem Solving</span>
+                        <div class="percent-number">90%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="education-content">
+                    <h3>Bachelor of Computer Science</h3>
+                    <h4>Jimma University</h4>
+                    <p class="year">Expected Graduation: 2026</p>
+                    <ul>
+                        <li>✓ Currently in third year of study</li>
+                        <li>✓ Active participant in coding clubs and hackathons</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <div class="education-content">
+                    <h3>Udacity Certifications</h3>
+                    <ul>
+                        <li>✓ Introduction to Artificial Intelligence</li>
+                        <li>✓ Full Stack Web Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Ethiopian University Info</h3>
+                <p>Technologies: HTML, CSS, JavaScript, PHP, MySQL</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Educational Guessing Game</h3>
+                <p>Technologies: Java, Swing, Firebase</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Attendance Management System</h3>
+                <p>Technologies: C++, OOP, File Handling</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        
+        <!-- Social media links container -->
+        <div class="social-container">
+            <h3>Connect With Me</h3>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/bikila-belay-48a2a0332" class="social-btn" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://t.me/@bikila2022" class="social-btn" target="_blank">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://facebook.com/bikilabelay.dugasa" class="social-btn" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://wa.me/0918365217" class="social-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Bikila Belay. All rights reserved.</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
